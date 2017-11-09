@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "LinkedIn For Unregistered Users",
+  "description": "This extension allows you to bypass LinkedIn restriction of viewing only one public profile per unregistered visit. You can now view all public profiles you want without registering.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "image.png"
+  },
+  "icons": {
+    "48": "image.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
