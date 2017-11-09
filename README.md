@@ -5,3 +5,5 @@ A chrome extension that allows you to bypass LinkedIn restriction of viewing onl
 # TODO
 
 - [ ] Upload it to chrome store
+- [ ] Add a GIF to show how it works
+- [ ] Share it with the community on hacker news
